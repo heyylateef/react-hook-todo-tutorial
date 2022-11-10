@@ -1,3 +1,5 @@
+import React from 'react';
+
 //Functional component; returns HTML containing the "someText" property of the "todo" prop and 2 buttons (props in React are like arguments in Python)
 function TodoItem({ todo, index, completeTodo, removeTodo }){
     return(
